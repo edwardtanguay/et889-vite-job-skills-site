@@ -11,9 +11,9 @@
 		- Tailwind (install time: 60 seconds)
 	- x put jobs in a component
 	- x create skills JSON
-	- .. display skills on for each job 
-		- .. lookup skill name
+	- x display skills on for each job 
+		- x lookup skill name
+	- .. publish to Vercel
 	- Jobs('react")
 	- Jobs('mongo")
-	- publish to Vercel
 	- search button
