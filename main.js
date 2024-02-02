@@ -13,7 +13,7 @@ for (const job of jobs) {
 jobsHtml += '</ul>';
 
 document.querySelector('#app').innerHTML = `
-  <h1>Jobs and Skills</h1>
+  <h1 class="text-red-700">Jobs and Skills</h1>
   <p>There are ${jobs.length} jobs.</p>
   ${jobsHtml}
 `;
