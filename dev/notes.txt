@@ -1,10 +1,12 @@
 - .. Vite JS-DOM (Vanilla) to show jobs and skills
 	- x create basic Vite JS-DOM (JavaScript)
 	- x install Git
-	- .. minimize the site
-	- read JSON file
-		- jobs, skills
-	- display on page
+	- x minimize the site
+	- x read JSON file
+		- x jobs
+	- .. display jobs on page
+	- skills
+	- display skills on page
 	- styling
 		- Tailwind (install time: 60 seconds)
 		- Sass (install time: 20 seconds)
