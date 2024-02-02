@@ -5,6 +5,7 @@
 	- x read JSON file
 		- x jobs
 	- .. display jobs on page
+		- Frontend Developer (Hammerstein GmbH)
 	- skills
 	- display skills on page
 	- styling
