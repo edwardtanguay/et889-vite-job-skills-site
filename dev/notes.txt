@@ -9,7 +9,9 @@
 	- x styling
 		- Sass (install time: 20 seconds)
 		- Tailwind (install time: 60 seconds)
-	- put jobs in a component
-	- skills
-	- display skills on page
+	- x put jobs in a component
+	- .. create skills JSON
+	- display skills on for each job 
+	- Jobs('react")
+	- Jobs('mongo")
 	- publish to Vercel

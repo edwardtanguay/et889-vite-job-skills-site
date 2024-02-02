@@ -13,8 +13,7 @@ export const Jobs = () => {
 	}
 	jobsHtml += '</ul>';
 
-	return jobsHtml;
-	// return /*html*/ `
-	// ${jobsHtml}
-	// `;
+	return /*html*/ `
+	${jobsHtml}
+	`;
 };
