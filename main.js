@@ -1,5 +1,5 @@
 import jobs from './data/jobs.json';
-import './style.css';
+import './style.scss';
 
 let jobsHtml = '<ul>';
 for (const job of jobs) {

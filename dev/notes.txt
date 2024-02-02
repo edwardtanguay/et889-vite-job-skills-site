@@ -4,11 +4,11 @@
 	- x minimize the site
 	- x read JSON file
 		- x jobs
-	- .. display jobs on page
-		- Frontend Developer (Hammerstein GmbH)
+	- x display jobs on page
+		- x Frontend Developer (Hammerstein GmbH)
+	- .. styling
+		- Sass (install time: 20 seconds)
+		- Tailwind (install time: 60 seconds)
 	- skills
 	- display skills on page
-	- styling
-		- Tailwind (install time: 60 seconds)
-		- Sass (install time: 20 seconds)
 	- publish to Vercel
