@@ -6,9 +6,10 @@
 		- x jobs
 	- x display jobs on page
 		- x Frontend Developer (Hammerstein GmbH)
-	- .. styling
+	- x styling
 		- Sass (install time: 20 seconds)
 		- Tailwind (install time: 60 seconds)
+	- put jobs in a component
 	- skills
 	- display skills on page
 	- publish to Vercel
