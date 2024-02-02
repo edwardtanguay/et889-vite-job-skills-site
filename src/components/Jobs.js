@@ -5,9 +5,10 @@ export const Jobs = () => {
 	let jobsHtml = '<ul>';
 	for (const job of jobs) {
 		jobsHtml += `
-<li class="mb-4">
+<li class="mb-4 bg-slate-600 p-3 rounded">
   <p class="font-semibold">${job.title}</p>
-  <p>${job.company}</p>
+  <p class="text-orange-950">${job.company}</p>
+  <p>${job.skillList}</p>
 </li>
 `;
 	}
