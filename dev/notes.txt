@@ -13,7 +13,7 @@
 	- x create skills JSON
 	- x display skills on for each job 
 		- x lookup skill name
-	- .. publish to Vercel
-	- Jobs('react")
+	- x publish to Vercel
+	- .. Jobs('react")
 	- Jobs('mongo")
 	- search button

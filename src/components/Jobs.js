@@ -1,4 +1,4 @@
-import jobs from '../data/jobs.json';
+import _jobs from '../data/jobs.json';
 import skills from '../data/skills.json';
 
 const getSkillNameList = (skillList) => {
@@ -13,9 +13,14 @@ const getSkillNameList = (skillList) => {
 	return skillHtmlTexts.join(', ');
 };
 
-export const Jobs = () => {
+export const Jobs = (searchText) => {
+
+	const jobs = structuredClone(_jobs.filter(m => m.skillList.includes(searchText)));
+
+
 
 	let jobsHtml = '<ul>';
+	jobsHtml += `<h2 class="text-2xl mb-4 bg-orange-300 p-4 rounded">${searchText.toUpperCase()}</h2>`;
 	for (const job of jobs) {
 
 		jobsHtml += `
